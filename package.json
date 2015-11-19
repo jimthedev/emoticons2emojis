@@ -1,0 +1,38 @@
+{
+  "name": "emoticons2emojis",
+  "version": "1.0.0",
+  "description": "Migrate your HipChat emoticons to Slack emojis",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hipchat",
+    "emoticons",
+    "slock",
+    "emojis"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/jimthedev/emoticons2emojis"
+  },
+  "author": "Jim Cummins <jimthedev@gmail.com> (http://github.com/jimthedev)",
+  "license": "MIT",
+  "dependencies": {
+    "co": "4.6.0",
+    "commander": "2.9.0",
+    "emojipacks": "0.0.4",
+    "hipchatter": "0.2.0",
+    "lodash": "3.10.1",
+    "write-yaml": "0.2.2"
+  },
+  "devDependencies": {
+    "commitizen": "2.4.6",
+    "cz-conventional-changelog": "1.1.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
